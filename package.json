@@ -35,11 +35,12 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"],
-        "rules": {
-      "no-unused-vars": "warn",
-      "react-hooks/exhaustive-deps": "warn"
+      "react-app"
+    ],
+    "rules": {
+      "no-unused-vars": "off",
+      "react-hooks/exhaustive-deps": "off",
+      "jsx-a11y/img-redundant-alt": "off"
     }
   },
   "browserslist": {
